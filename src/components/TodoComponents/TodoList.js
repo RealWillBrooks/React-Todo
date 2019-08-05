@@ -14,8 +14,7 @@ const TodoList = props => {
                     key={item.id} 
                     todo={item}
                     toggleItem={props.toggleItem}
-                />
-            ))}
+                /> ))}
 
         </div>
     )
